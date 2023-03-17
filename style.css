@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    font-family: 'Balsamiq Sans', cursive;
+    /* outline: 1px dashed red; */
+}
+#NavBar{
+    color: white;
+    background-color: rgb(173, 173, 175);
+    padding: 10px 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn {
+    background-color: rgb(144, 138, 179);
+    border: 2px solid black;
+    box-shadow: 3px 3px;
+    padding: 5px 10px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* styles to apply to body */
+
+body {
+    background-color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Profile Card Flex Container */
+
+.flex-container {
+    width: 1000px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.user-card {
+    width: 50%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    
+}
+
+.card-header {
+    background-color:  rgb(167, 178, 223);
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h1, 
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 20px 0px;
+}
+
+.avatar-m {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 150px;
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.icon-s {
+    height: 20px;
+}
+
+a {
+    color: #3a81e6;
+}
+
+/* Second Flex Container */
+
+.flex-containerTwo {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.user-cardTwo {
+    width: 39.5%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    margin-left: 40px;
+    
+}
+
+.card-headerTwo {
+    background-color:  rgb(167, 178, 223) ;
+    height: 70px;
+    margin-bottom: 25px;
+}
+
+.card-bodyTwo {
+    padding: 10px;
+    margin-bottom: 4px;
+    
+}
+
+h2 {
+    text-align:left;
+    margin-left: 15px;
+    padding-top: 20px;
+}
+
+.card-headerThree {
+    background-color:  rgb(165, 163, 163);
+    height: 70px;
+    margin-bottom: 25px;
+}
+
+.card-bodyThree {
+    padding: 10px;
+    margin-bottom: 4px;
+    
+}
+
+h2 {
+    text-align:left;
+    margin-left: 15px;
+    padding-top: 20px;
+}
+
+.user_icon-s  {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 50px;
+    padding: 5px;
+    margin-top: px;
+    margin-left: 20px;
+}
+
+a2 {
+    color: black
+}
+
+
+
+
